@@ -1,35 +1,49 @@
 *,
 ::before,
 ::after {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    border: none;
-    outline: none;
-}
-
-body {
-    height: 900vh;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: none;
+  outline: none;
 }
 
 .logo {
-    width: 190px;
-    padding: 0 9% 0;
+  width: 190px;
+  padding: 0 9% 0;
 }
 
 .container-small {
-    padding: 0 9% 0 !important;
+  padding: 0 9% 0 !important;
 }
 
 .nav-item a:hover {
-    transition: .3s all ease !important;
-    color: #BB2D3B !important;
+  transition: 0.3s all ease !important;
+  color: #bb2d3b !important;
 }
 
 .image-size {
-    flex: 1 1 300px !important;
+  flex: 1 1 300px !important;
 }
 
 .top-section {
-    padding: 100px 11% 100px;
+  padding: 100px 11% 100px;
+}
+
+.w-60 {
+  width: 60px !important;
+}
+
+.w-250 {
+  width: 250px !important;
+}
+
+footer {
+  cursor: pointer;
+}
+
+.social i:hover{
+    transition: .3s all ease;
+    background-color: #DC3545;
+    color: white;
 }
