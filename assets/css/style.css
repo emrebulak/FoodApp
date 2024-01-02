@@ -1,0 +1,35 @@
+*,
+::before,
+::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+}
+
+body {
+    height: 900vh;
+}
+
+.logo {
+    width: 190px;
+    padding: 0 9% 0;
+}
+
+.container-small {
+    padding: 0 9% 0 !important;
+}
+
+.nav-item a:hover {
+    transition: .3s all ease !important;
+    color: #BB2D3B !important;
+}
+
+.image-size {
+    flex: 1 1 300px !important;
+}
+
+.top-section {
+    padding: 100px 11% 100px;
+}
